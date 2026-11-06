@@ -1,0 +1,29 @@
+{
+  "binomial_moments": {
+    "mass": 1.0,
+    "mean": 0,
+    "variance": 1
+  },
+  "weighted_affine_vs_dense_lstsq_max_error": 2.1316282072803006e-14,
+  "rebased_moments_max_error": 9.094947017729282e-13,
+  "plane_coefficients_max_error": 1.2087553180606392e-14,
+  "plane_sse_error": 5.3734794391857577e-14,
+  "full_tile_coordinate_moments": true,
+  "filter_gradient_anchor_flag_differences": 0,
+  "full_native_plane_output_vs_dense_equations_max_error_px": 7.88276880570038e-06,
+  "resolution": [
+    640,
+    400
+  ],
+  "native_abi": 2,
+  "source_sha256": {
+    "native/fast_aligned.cpp": "849a8c05312f2f545895022b367d05b9985579c9068c2f0985e581cd1779e93d",
+    "native/edge_first.h": "03a4b2c94111a5789d2a82e2cbe150667371f4e799794e38f0d370be027e464f",
+    "native/simd_vectors.h": "69200d004be6d2718942e65173bdc42be5145f1cd5ce404212dfafa154573b61",
+    "native/fast_aligned.h": "8e766bab31120e4f5b126513c5b54b4d25ac9e52f607a204925d3583d74e1752",
+    "disp_fusion/fast_aligned.py": "ff0f1afad0bbfee2fffbfb724c566802bba0e83ea5fe3d32bff2733f92740577"
+  },
+  "scope": "Synthetic equation/implementation consistency checks; not ground-truth accuracy or DSP timing.",
+  "preparation_helper": "Scalar C++ helper using the unchanged dfe::Preparation header.",
+  "native_library_sha256": "f912daca3ec3e81cd8f5ae7f257b5c580468301bc279dab2c7a97c1dda561dc8"
+}

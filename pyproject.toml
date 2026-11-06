@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stereo-mono-refinement"
+version = "1.0.0"
+description = "Shared V1/V2 stereo edge rejection and bounded mono-guided smoothing"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "scipy>=1.9", "opencv-python>=4.5"]
+
+[project.optional-dependencies]
+acceleration = ["numba>=0.57"]
+
+[project.scripts]
+disp-fusion = "disp_fusion.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["disp_fusion*"]

@@ -1,0 +1,877 @@
+{
+  "project": "/home/william/Documents/ChatGPT/disp-fusion",
+  "archive": "/tmp/disp-fusion-legacy-20261028-KhlYhg",
+  "preserved_output_directories": [
+    "damv2l_rgb_native_s518_sample20",
+    "edge_consensus_smooth_v2_dam518_sample20",
+    "edge_consensus_smooth_v2_zipdepth_sample20",
+    "edge_v2_zipdepth_vs_dam518_sample20",
+    "simple_edge_rejection_dam518_sample20",
+    "simple_edge_rejection_zipdepth_sample20",
+    "zipdepth_rgb_native_all907",
+    "zipdepth_v1_vs_v2_vs_dam_v1_sample20"
+  ],
+  "entries": [
+    {
+      "path": ".pytest_cache",
+      "bytes": 6779,
+      "kind": "directory"
+    },
+    {
+      "path": ".runtime",
+      "bytes": 5646095,
+      "kind": "directory"
+    },
+    {
+      "path": "ALGORITHM_REPORT_20261028.md",
+      "bytes": 15258,
+      "kind": "file"
+    },
+    {
+      "path": "ALGORITHM_REPORT_20261028.pdf",
+      "bytes": 3355667,
+      "kind": "file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 60431,
+      "kind": "file"
+    },
+    {
+      "path": "__pycache__",
+      "bytes": 654657,
+      "kind": "directory"
+    },
+    {
+      "path": "analyze_geometry_first.py",
+      "bytes": 14237,
+      "kind": "file"
+    },
+    {
+      "path": "calibrated_rgb_fusion_trial.py",
+      "bytes": 14109,
+      "kind": "file"
+    },
+    {
+      "path": "compare_edge_v2_mono.py",
+      "bytes": 8324,
+      "kind": "file"
+    },
+    {
+      "path": "compare_rgb_mono_surfaces.py",
+      "bytes": 16249,
+      "kind": "file"
+    },
+    {
+      "path": "compare_selected_mono_caches.py",
+      "bytes": 15766,
+      "kind": "file"
+    },
+    {
+      "path": "compare_v7_v8.py",
+      "bytes": 4161,
+      "kind": "file"
+    },
+    {
+      "path": "compare_zipdepth_v1.py",
+      "bytes": 5910,
+      "kind": "file"
+    },
+    {
+      "path": "depth_anything_infer.py",
+      "bytes": 6360,
+      "kind": "file"
+    },
+    {
+      "path": "diagnose_alignment.py",
+      "bytes": 7712,
+      "kind": "file"
+    },
+    {
+      "path": "diagnose_zipdepth_inference.py",
+      "bytes": 4689,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/__init__.py",
+      "bytes": 501,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/__pycache__",
+      "bytes": 294008,
+      "kind": "directory"
+    },
+    {
+      "path": "disp_fusion/anchored_hybrid.py",
+      "bytes": 9996,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/calibrated_projection.py",
+      "bytes": 12888,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/core.py",
+      "bytes": 28942,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/dense_geometry.py",
+      "bytes": 9899,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/edge_consensus_smooth.py",
+      "bytes": 5044,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/edge_rejection.py",
+      "bytes": 7801,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/experiment_inputs.py",
+      "bytes": 1212,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/foundation_compat.py",
+      "bytes": 3221,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/graph_refine.py",
+      "bytes": 10355,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/io.py",
+      "bytes": 3199,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/line_alignment.py",
+      "bytes": 3365,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/mono_dominant.py",
+      "bytes": 5426,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/registration.py",
+      "bytes": 7375,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/semantic_refine.py",
+      "bytes": 13763,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/shape_refine.py",
+      "bytes": 26563,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/sparse_surface.py",
+      "bytes": 10744,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/surface_reconstruction.py",
+      "bytes": 3562,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/surface_selection.py",
+      "bytes": 3974,
+      "kind": "file"
+    },
+    {
+      "path": "disp_fusion/topology_refine.py",
+      "bytes": 20480,
+      "kind": "file"
+    },
+    {
+      "path": "evaluate_foundation_stereo.py",
+      "bytes": 11272,
+      "kind": "file"
+    },
+    {
+      "path": "explore_geometry_first.py",
+      "bytes": 29249,
+      "kind": "file"
+    },
+    {
+      "path": "foundation_stereo_infer.py",
+      "bytes": 12782,
+      "kind": "file"
+    },
+    {
+      "path": "fuse_dataset.py",
+      "bytes": 12167,
+      "kind": "file"
+    },
+    {
+      "path": "guard_surface_auto.py",
+      "bytes": 4830,
+      "kind": "file"
+    },
+    {
+      "path": "line_alignment.py",
+      "bytes": 3643,
+      "kind": "file"
+    },
+    {
+      "path": "make_alignment_comparison.py",
+      "bytes": 3427,
+      "kind": "file"
+    },
+    {
+      "path": "make_colormap_comparison.py",
+      "bytes": 7620,
+      "kind": "file"
+    },
+    {
+      "path": "make_mono_comparison.py",
+      "bytes": 3946,
+      "kind": "file"
+    },
+    {
+      "path": "make_v3_v4_colormap.py",
+      "bytes": 5134,
+      "kind": "file"
+    },
+    {
+      "path": "make_v5_1_colormap.py",
+      "bytes": 7994,
+      "kind": "file"
+    },
+    {
+      "path": "make_zipdepth_colormap.py",
+      "bytes": 4687,
+      "kind": "file"
+    },
+    {
+      "path": "ot_fusion_trial.py",
+      "bytes": 10912,
+      "kind": "file"
+    },
+    {
+      "path": "outputs/alignment_comparison_sample20",
+      "bytes": 35775971,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/alignment_diagnostic",
+      "bytes": 1739584,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_trial_000286",
+      "bytes": 14303724,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v6_000286",
+      "bytes": 14360040,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v7_000286",
+      "bytes": 19891018,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v7_sample20",
+      "bytes": 431981798,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v7_semantic_strong_trial",
+      "bytes": 59323717,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v8_continuous_trial",
+      "bytes": 25556413,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v8_edge_trial",
+      "bytes": 25528978,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v8_final_trial",
+      "bytes": 25546529,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v8_sample20",
+      "bytes": 538939451,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v9_sample20",
+      "bytes": 424283521,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/calibrated_rgb_fusion_v9_trial",
+      "bytes": 81442664,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_comparison",
+      "bytes": 1388633,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stable_parallel_smoke",
+      "bytes": 1440304,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stable_preview",
+      "bytes": 1232760,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stronger_difference",
+      "bytes": 6676167,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stronger_difference_v3",
+      "bytes": 6953099,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stronger_difference_v4",
+      "bytes": 7649623,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_stronger_trial",
+      "bytes": 3558259,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_v5_1_zipdepth_rgb_native_sample20",
+      "bytes": 14729706,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_v5_1_zipdepth_rgb_sample20",
+      "bytes": 14995374,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/colormap_v5_2_zipdepth_rgb_sample20",
+      "bytes": 14987869,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/damv2l_rgb_native_s384_sample20",
+      "bytes": 73738614,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_sample20_colormap",
+      "bytes": 30541884,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_large_sample20_colormap",
+      "bytes": 30956655,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_vitl_all907",
+      "bytes": 3343681305,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_vitl_sample",
+      "bytes": 11059988,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_vitl_sample20",
+      "bytes": 73730967,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_vits_sample",
+      "bytes": 70044438,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/depth_anything_v2_vits_sample20",
+      "bytes": 73730966,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/edge_consensus_smooth_v2_dam518_routing_replay",
+      "bytes": 21910331,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/foundation_stereo_large_ir_native_offload_sample4",
+      "bytes": 2707,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/foundation_stereo_large_ir_native_sample4",
+      "bytes": 2445,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/foundation_stereo_large_ir_s05_smoke",
+      "bytes": 9779357,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/foundation_stereo_large_ir_s075_sample4",
+      "bytes": 75394218,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stable_smoke",
+      "bytes": 25578650,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stable_validation20",
+      "bytes": 105073057,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stable_validation20_r48",
+      "bytes": 105073069,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stronger_trial",
+      "bytes": 105073026,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stronger_trial_v2",
+      "bytes": 105073023,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stronger_trial_v3",
+      "bytes": 105073054,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_stronger_trial_v4",
+      "bytes": 105073275,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v3_sample20",
+      "bytes": 358970379,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v4_sample20",
+      "bytes": 422062796,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v4_trial",
+      "bytes": 22222804,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_1_registered_sample20",
+      "bytes": 544160702,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_1_zipdepth_rgb_native_sample20",
+      "bytes": 617067696,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_1_zipdepth_rgb_sample20",
+      "bytes": 618605263,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_2_zipdepth_rgb_sample20",
+      "bytes": 618591536,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_sample20",
+      "bytes": 399111791,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_sample20_final",
+      "bytes": 397059431,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_sample20_quantile",
+      "bytes": 397060001,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_v5_trial",
+      "bytes": 59767287,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fused_workers_smoke",
+      "bytes": 22122684,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fusion_final_smoke",
+      "bytes": 5531566,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fusion_smoke",
+      "bytes": 23668720,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fusion_validation",
+      "bytes": 119333236,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fusion_validation20",
+      "bytes": 210137573,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/fusion_validation_v2",
+      "bytes": 119243160,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/geometry_first_dam384_rgb_sample20",
+      "bytes": 1035516642,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/geometry_first_exploration_sample4",
+      "bytes": 153929290,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/geometry_first_layered_sample4",
+      "bytes": 248800837,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/geometry_first_layered_validation16",
+      "bytes": 989427970,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/geometry_first_zipdepth_rgb_sample20",
+      "bytes": 1035218406,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/model_routing_dam518_replay",
+      "bytes": 51839008,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/model_routing_dam518_selected_replay",
+      "bytes": 25542405,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/mono_model_comparison",
+      "bytes": 5201513,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/ot_dav2_large_sample20",
+      "bytes": 379526096,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/rgb_alignment_diagnostic",
+      "bytes": 2296520,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/selected_metric_dam384_sample20",
+      "bytes": 509054628,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/selected_metric_surfaces20",
+      "bytes": 508668403,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/selected_metric_zipdepth_sample20",
+      "bytes": 508742437,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/semantic_sphere_refine",
+      "bytes": 10515737,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/strict_rgb_model_comparison_sample20",
+      "bytes": 95310695,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_feasibility_000286",
+      "bytes": 13597398,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_auto_sample20",
+      "bytes": 398483594,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_damv2l_s384_auto_sample20",
+      "bytes": 379547797,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_damv2l_s384_guarded_sample20",
+      "bytes": 432409339,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_damv2l_s518_auto_sample20",
+      "bytes": 374328701,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_damv2l_s518_guarded_sample20",
+      "bytes": 428034425,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/surface_reconstruction_guarded_sample20",
+      "bytes": 427930901,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/v5_1_audit_worst",
+      "bytes": 136767494,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/v5_2_safe_audit",
+      "bytes": 136743724,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/validated_geometry_sample4",
+      "bytes": 101816829,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/validated_geometry_study20",
+      "bytes": 545770481,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/validated_geometry_validation16",
+      "bytes": 406847022,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_colormap",
+      "bytes": 309784041,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_inference_diagnostic",
+      "bytes": 775859,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_rgb_all907",
+      "bytes": 3343681463,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_rgb_native_colormap_all907",
+      "bytes": 328996017,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_rgb_native_sample20",
+      "bytes": 73730992,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_rgb_sample20",
+      "bytes": 73730996,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_smoke",
+      "bytes": 3686940,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_validation",
+      "bytes": 18433052,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_validation20",
+      "bytes": 70044446,
+      "kind": "directory"
+    },
+    {
+      "path": "outputs/zipdepth_vs_dam_selected_sample20",
+      "bytes": 53916864,
+      "kind": "directory"
+    },
+    {
+      "path": "refine_dataset_v3.py",
+      "bytes": 6745,
+      "kind": "file"
+    },
+    {
+      "path": "refine_dataset_v4.py",
+      "bytes": 9917,
+      "kind": "file"
+    },
+    {
+      "path": "refine_dataset_v5.py",
+      "bytes": 15863,
+      "kind": "file"
+    },
+    {
+      "path": "refine_dataset_v7.py",
+      "bytes": 186,
+      "kind": "file"
+    },
+    {
+      "path": "refine_dataset_v8.py",
+      "bytes": 292,
+      "kind": "file"
+    },
+    {
+      "path": "refine_dataset_v9.py",
+      "bytes": 8066,
+      "kind": "file"
+    },
+    {
+      "path": "select_geometry_surfaces.py",
+      "bytes": 13330,
+      "kind": "file"
+    },
+    {
+      "path": "semantic_sphere_refine.py",
+      "bytes": 9648,
+      "kind": "file"
+    },
+    {
+      "path": "study_surface_000286.py",
+      "bytes": 18998,
+      "kind": "file"
+    },
+    {
+      "path": "study_surface_auto.py",
+      "bytes": 18674,
+      "kind": "file"
+    },
+    {
+      "path": "summarize_selected_geometry.py",
+      "bytes": 18422,
+      "kind": "file"
+    },
+    {
+      "path": "summarize_surface_auto.py",
+      "bytes": 13534,
+      "kind": "file"
+    },
+    {
+      "path": "summarize_v7.py",
+      "bytes": 3188,
+      "kind": "file"
+    },
+    {
+      "path": "tests/__pycache__",
+      "bytes": 252835,
+      "kind": "directory"
+    },
+    {
+      "path": "tests/test_edge_consensus_smooth.py",
+      "bytes": 3537,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_edge_model_cache.py",
+      "bytes": 1182,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_edge_rejection.py",
+      "bytes": 2549,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_experiment_inputs.py",
+      "bytes": 1847,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_foundation_adapter.py",
+      "bytes": 1089,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_fusion.py",
+      "bytes": 30069,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_line_alignment.py",
+      "bytes": 999,
+      "kind": "file"
+    },
+    {
+      "path": "tests/test_surface_selection.py",
+      "bytes": 3786,
+      "kind": "file"
+    },
+    {
+      "path": "try_edge_consensus_smooth.py",
+      "bytes": 15621,
+      "kind": "file"
+    },
+    {
+      "path": "try_edge_rejection.py",
+      "bytes": 15496,
+      "kind": "file"
+    },
+    {
+      "path": "zipdepth_infer.py",
+      "bytes": 4783,
+      "kind": "file"
+    }
+  ],
+  "total_bytes": 24827148859
+}
